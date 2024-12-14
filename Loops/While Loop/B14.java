@@ -10,7 +10,7 @@ public class B14 {
         int table = 1
         ;
 
-        while(table<=10){
+        while(table<=11){
             System.out.println(table*a);
             table++;
     
