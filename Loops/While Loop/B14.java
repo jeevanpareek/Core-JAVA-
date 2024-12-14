@@ -13,7 +13,9 @@ public class B14 {
         while(table<=10){
             System.out.println(table*a);
             table++;
+    
         }
+        sc.close();
     }
     
 }
