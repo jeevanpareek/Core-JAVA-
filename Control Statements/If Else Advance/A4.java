@@ -48,6 +48,7 @@ public class A4 {
            System.out.println("Fail");
        }
        System.out.println("Your percentage is "+percent +" and your grade is "+grade);
+       sc.close();
     }
     
 }

@@ -30,6 +30,7 @@ public class A2 {
         else{
             System.out.println("Invalid input");
         }
+        sc.close();
 
     }
     

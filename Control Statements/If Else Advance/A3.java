@@ -70,6 +70,7 @@ public class A3 {
         else{
             System.out.println("Invalid Input!!");
         }
+        sc.close();
         
     }
 }
