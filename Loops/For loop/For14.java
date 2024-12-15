@@ -60,6 +60,18 @@ public class For14 {
             }
             System.out.println(+sum+" ");
         }
+        else if(s.equals("factorial")){
+            System.out.println("Enter number : ");
+            int a = sc.nextInt();
+
+            int fact = 1;
+            int i = 1;
+            while(i<=a){
+                fact = fact*i;
+                i++;
+            }
+            System.out.println(" The factorial of a given number is "+fact);
+        }
         sc.close();
     }
     
