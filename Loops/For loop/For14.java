@@ -1,7 +1,3 @@
-// write and make a program user input armstrong = then check number is armstrong and not , 
-// when user input pallindrome =check number is pallindrome or not , when user input reverse then 
-// check number is reverse or not (through user input ) (use if else if else and while loop and for loop only ) 
-
 import java.util.Scanner;
 
 public class For14 {
