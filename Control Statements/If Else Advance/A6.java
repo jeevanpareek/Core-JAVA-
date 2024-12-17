@@ -1,16 +1,3 @@
-// 7)Write a java program to read the roll no, name,fnname and marks of three subjects and calculate the total, percentage and division.
-// Test Data :
-// Input the Roll Number of the student :784
-// student name : 
-// fname:
-// mname:
-// address:
-// contact:
-// Input the marks of Physics, Chemistry and Computer Application : 70 80 90
-// total: 
-// precentage : % 
-// division
-
 import java.util.Scanner;
 
 public class A6 {
