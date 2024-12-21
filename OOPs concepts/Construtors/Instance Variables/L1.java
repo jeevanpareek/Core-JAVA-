@@ -37,7 +37,6 @@ public class L1 {
 
         System.out.println("Enter the value of b :");
         int b = sc.nextInt();
-
         p.add(a, b);
 
         System.out.println("Enter the value of a :");
