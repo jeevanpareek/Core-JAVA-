@@ -1,3 +1,5 @@
+// Write a program to create a class Person with a default constructor that initializes name to "Unknown" and age to 0.
+
 class A{
     A(){
         String name = "Unknown";
