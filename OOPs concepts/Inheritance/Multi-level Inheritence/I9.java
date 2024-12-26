@@ -26,6 +26,6 @@ public class I9 {
         p.m1(20);
        System.out.println(p.m2());
         p.m3();
-        p.m4(42);
+        p.m4(420);
     }
 }
