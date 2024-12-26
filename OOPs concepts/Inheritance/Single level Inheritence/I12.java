@@ -1,5 +1,5 @@
 class A{
-    protected int a = 100;
+    protected int a = 1000;
 }
 class B extends A{
    void show(){
