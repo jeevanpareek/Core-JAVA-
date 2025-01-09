@@ -12,27 +12,27 @@ interface D{
     void show3(int a);
 } 
 
-class E{
+class E implements A{
     public void show(){
         System.out.println("Hello");
     }
 }
-class F{
-    public int show(int a){
+class F implements B{
+    public int show1(int a){
         System.out.println(a);
 
         return a;
     }
 }
-class G{
-    public int show(){
+class G implements C{
+    public int show2(){
         System.out.println("Hello");
 
         return 0;
     }
 }
-class H{
-    public void show(int b){
+class H implements D{
+    public void show3(int b){
         System.out.println(b);
     }
 }
@@ -42,12 +42,12 @@ public class I2 {
         p.show();
 
         F q = new F();
-        q.show(20);
+        q.show1(20);
 
         G w = new G();
-        w.show();
+        w.show2();
 
         H e = new H();
-        e.show(45);
+        e.show3(45);
     }
 }
