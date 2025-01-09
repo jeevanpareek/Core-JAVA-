@@ -1,8 +1,4 @@
-// interface : 
-// 	method1 :no return and no argument 
-// 	method2:no return and  argument 
-// 	method3: return and no argument 
-// 	method4 : return and  argument 
+
 interface A{
     void show();
     void show1(int a);
