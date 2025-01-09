@@ -1,10 +1,3 @@
-// interface : 
-// 	method1 :no return and no argument 
-// 	method2:default no return and  argument 
-// 	method3:private return and no argument 
-// 	method4 :private return and argument 
-
-// another class access
 interface A{
     void show();
     default void show1(int a){
