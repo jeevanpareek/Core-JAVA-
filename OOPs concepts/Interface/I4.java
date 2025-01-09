@@ -1,15 +1,3 @@
-// interface 
-// 	method3:private return and no argument 
-
-// interface 
-// 	method4 : return and argument 
-
-// class :first inter
-
-// class :Second inter
-
-// class :first and second 
-// access 
 interface A{
     private int show(){
         System.out.println("Hello");
@@ -23,9 +11,6 @@ interface A{
 interface B{
     int show(int a);
 }
-// class C implements {
-
-// }
 class D implements A,B{
     public int show(int a){
         System.out.println(a);
