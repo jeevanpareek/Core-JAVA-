@@ -1,18 +1,4 @@
-// multiple inheritance
 
-// interface : 
-// 	method1 :no return and no argument 
-
-// interface : 
-// 	method2:no return and  argument 
-
-// interface : 
-// 	method3: return and no argument 
-
-// interface : 
-// 	method4 : return and  argument 
-
-// another class access 
 interface A{
     void show();
 } 
