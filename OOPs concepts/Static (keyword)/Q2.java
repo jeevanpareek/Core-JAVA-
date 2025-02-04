@@ -1,14 +1,14 @@
-// class A{
-//     static class B{
-//         static A show(){
-//             System.out.println("Hello");
+class A{
+    static class B{
+        static B show(){
+            System.out.println("Hello");
 
-//             return A;
-//         }
-//     }
-// }
-// public class Q2 {
-//    public static void main(String[] args) {
-//     A.B.show();
-//    } 
-// }
+            return new B();
+        }
+    }
+}
+public class Q2 {
+   public static void main(String[] args) {
+    A.B.show();
+   } 
+}
