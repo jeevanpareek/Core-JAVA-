@@ -10,12 +10,11 @@ public class LineCount {
 		BufferedReader br = new BufferedReader(filereader);
 		
 		int lineCount = 0;
-		String s;
+//		String s;
 		
-		while((s = br.readLine())!=null){
+		while((br.readLine())!=null){
 			lineCount ++;
-//			System.out.println(s);
-		};
+		}
 		System.out.println("The total lines in the file is :" + lineCount);
 		
 		filereader.close();
